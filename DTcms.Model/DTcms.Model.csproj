@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D67868C9-56B9-4E35-8E15-C105FC44CFB9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DTcms.Model</RootNamespace>
+    <AssemblyName>DTcms.Model</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>%24/Co.Tton.PartyConstruction/DTcms.Model</SccProjectName>
+    <SccLocalPath>.</SccLocalPath>
+    <SccAuxPath>http://tfs.ttonservice.com:8080/tfs/defaultcollection</SccAuxPath>
+    <SccProvider>{4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="article.cs" />
+    <Compile Include="article_albums.cs" />
+    <Compile Include="article_attach.cs" />
+    <Compile Include="article_attribute_field.cs" />
+    <Compile Include="article_attribute_value.cs" />
+    <Compile Include="article_category.cs" />
+    <Compile Include="article_comment.cs" />
+    <Compile Include="channel.cs" />
+    <Compile Include="channel_field.cs" />
+    <Compile Include="channel_site.cs" />
+    <Compile Include="DetailWoedJournal.cs" />
+    <Compile Include="express.cs" />
+    <Compile Include="ForumBranchModel.cs" />
+    <Compile Include="mail_template.cs" />
+    <Compile Include="manager.cs" />
+    <Compile Include="manager_log.cs" />
+    <Compile Include="manager_role.cs" />
+    <Compile Include="manager_role_value.cs" />
+    <Compile Include="navigation.cs" />
+    <Compile Include="orders.cs" />
+    <Compile Include="order_config.cs" />
+    <Compile Include="order_goods.cs" />
+    <Compile Include="P_ActivityStyle.cs" />
+    <Compile Include="P_ActivityStyleSublist.cs" />
+    <Compile Include="P_AnswerSheetRecord.cs" />
+    <Compile Include="P_AtPerson.cs" />
+    <Compile Include="P_AuditingFeedback.cs" />
+    <Compile Include="P_BranchPublish.cs" />
+    <Compile Include="P_Collect.cs" />
+    <Compile Include="P_CompanyType.cs" />
+    <Compile Include="P_Cover.cs" />
+    <Compile Include="P_Document.cs" />
+    <Compile Include="P_EducationInfo.cs" />
+    <Compile Include="P_EntitledGroupsInfo.cs" />
+    <Compile Include="P_ForumShare.cs" />
+    <Compile Include="P_IncomeSourceInfo.cs" />
+    <Compile Include="P_PartyCloud.cs" />
+    <Compile Include="P_PartyCloudShare.cs" />
+    <Compile Include="P_PartyCommitteeNotify.cs" />
+    <Compile Include="P_PartyPayMentRecord.cs" />
+    <Compile Include="P_QiNiuInfo.cs" />
+    <Compile Include="P_RewardsAndPunishment.cs" />
+    <Compile Include="P_SubordinateGroupInfo.cs" />
+    <Compile Include="UploadPictureModel.cs" />
+    <Compile Include="userExcel.cs" />
+    <Compile Include="u_administration_rank.cs" />
+    <Compile Include="u_badly_off_reason.cs" />
+    <Compile Include="u_company_type.cs" />
+    <Compile Include="u_enjoy_help.cs" />
+    <Compile Include="u_financial_situation.cs" />
+    <Compile Include="u_float_commie.cs" />
+    <Compile Include="u_group_type.cs" />
+    <Compile Include="u_healthy_condition.cs" />
+    <Compile Include="u_help_way.cs" />
+    <Compile Include="u_lead_info.cs" />
+    <Compile Include="u_military_rank.cs" />
+    <Compile Include="u_new_class.cs" />
+    <Compile Include="u_passport_info.cs" />
+    <Compile Include="u_police_rank.cs" />
+    <Compile Include="u_post_type.cs" />
+    <Compile Include="u_reward_punishment.cs" />
+    <Compile Include="WebApiModel\AnswerQuestionRecordModel.cs" />
+    <Compile Include="WebApiModel\AppealChartModel.cs" />
+    <Compile Include="WebApiModel\AtPersonnelModel.cs" />
+    <Compile Include="WebApiModel\CorceDetialModel.cs" />
+    <Compile Include="WebApiModel\FromBody\ALiPayCallBackModel.cs" />
+    <Compile Include="WebApiModel\FromBody\AtPersonnelFrombody.cs" />
+    <Compile Include="WebApiModel\FromBody\RefushCoverModel.cs" />
+    <Compile Include="WebApiModel\FromBody\DeleteCenterFromBody.cs" />
+    <Compile Include="WebApiModel\FromBody\PayFromBody.cs" />
+    <Compile Include="WebApiModel\FromBody\SubmitAnswerFromBody.cs" />
+    <Compile Include="WebApiModel\FromBody\UploadVideoPlaybackFrombody.cs" />
+    <Compile Include="WebApiModel\FromBody\UserLoginFormBody.cs" />
+    <Compile Include="WebApiModel\FromBody\WebMeetingFromBody.cs" />
+    <Compile Include="WebApiModel\FromBody\ZTreeUserFromBody.cs" />
+    <Compile Include="WebApiModel\GeTuiPushModel.cs" />
+    <Compile Include="WebApiModel\homepage\MapActivityModel.cs" />
+    <Compile Include="WebApiModel\homepage\MapGroupInfoModel.cs" />
+    <Compile Include="WebApiModel\homepage\MapOrgLocationModel.cs" />
+    <Compile Include="WebApiModel\homepage\MapUserInfoModel.cs" />
+    <Compile Include="WebApiModel\ManagerModel.cs" />
+    <Compile Include="WebApiModel\MapTitleModel.cs" />
+    <Compile Include="WebApiModel\PartyConstitutionModel.cs" />
+    <Compile Include="WebApiModel\PartyGroupForumModel.cs" />
+    <Compile Include="WebApiModel\PartyOrganizationModel.cs" />
+    <Compile Include="WebApiModel\PartyStyleImageModel.cs" />
+    <Compile Include="WebApiModel\PartytrainModel.cs" />
+    <Compile Include="payment.cs" />
+    <Compile Include="plugin.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="P_AnswerRecord.cs" />
+    <Compile Include="P_Apply.cs" />
+    <Compile Include="P_DownloadRecord.cs" />
+    <Compile Include="P_Image.cs" />
+    <Compile Include="P_LearnExchange.cs" />
+    <Compile Include="P_MeetingAdmin.cs" />
+    <Compile Include="P_MeetingAdminSublist.cs" />
+    <Compile Include="P_MeetingRecord.cs" />
+    <Compile Include="P_ModelPartyMember.cs" />
+    <Compile Include="P_OnlineLearn.cs" />
+    <Compile Include="P_Organization.cs" />
+    <Compile Include="P_PartyGallery.cs" />
+    <Compile Include="P_PartyGallerySublist.cs" />
+    <Compile Include="P_PartyGroupForum.cs" />
+    <Compile Include="P_PartyPayMent.cs" />
+    <Compile Include="P_PartyPayMentPeople.cs" />
+    <Compile Include="P_PersonGroupRelation.cs" />
+    <Compile Include="P_QuestionBank.cs" />
+    <Compile Include="P_Report.cs" />
+    <Compile Include="P_ReviewActivity.cs" />
+    <Compile Include="P_Shield.cs" />
+    <Compile Include="P_TestList.cs" />
+    <Compile Include="P_TestPaper.cs" />
+    <Compile Include="P_TestQuestion.cs" />
+    <Compile Include="P_ThumbUp.cs" />
+    <Compile Include="P_Transmit.cs" />
+    <Compile Include="P_UserDemand.cs" />
+    <Compile Include="P_UserDemandSublist.cs" />
+    <Compile Include="P_Video.cs" />
+    <Compile Include="P_VideoRecord.cs" />
+    <Compile Include="P_VisitRecord.cs" />
+    <Compile Include="P_VoteOption.cs" />
+    <Compile Include="P_VotePerson.cs" />
+    <Compile Include="P_WorkJournal.cs" />
+    <Compile Include="P_WorkJournalType.cs" />
+    <Compile Include="shopping_cart.cs" />
+    <Compile Include="sms_template.cs" />
+    <Compile Include="sys_config.cs" />
+    <Compile Include="Sys_User.cs" />
+    <Compile Include="template.cs" />
+    <Compile Include="url_rewrite.cs" />
+    <Compile Include="users.cs" />
+    <Compile Include="user_amount_log.cs" />
+    <Compile Include="user_attach_log.cs" />
+    <Compile Include="user_code.cs" />
+    <Compile Include="user_config.cs" />
+    <Compile Include="user_groups.cs" />
+    <Compile Include="user_group_price.cs" />
+    <Compile Include="user_login_log.cs" />
+    <Compile Include="user_message.cs" />
+    <Compile Include="user_oauth.cs" />
+    <Compile Include="user_oauth_app.cs" />
+    <Compile Include="user_point_log.cs" />
+    <Compile Include="user_recharge.cs" />
+    <Compile Include="WebApiModel\AddLearnExchange.cs" />
+    <Compile Include="WebApiModel\AnswerModel.cs" />
+    <Compile Include="WebApiModel\Aticle.cs" />
+    <Compile Include="WebApiModel\DetailPaperModel.cs" />
+    <Compile Include="WebApiModel\DetailPartyStyleModel.cs" />
+    <Compile Include="WebApiModel\DetailWorkLogModel.cs" />
+    <Compile Include="WebApiModel\FromBody\UserRegisteredModel.cs" />
+    <Compile Include="WebApiModel\PartyCommentModel.cs" />
+    <Compile Include="WebApiModel\PartyNewsPaperModel.cs" />
+    <Compile Include="WebApiModel\PartyPaymentModel.cs" />
+    <Compile Include="WebApiModel\PayChartModel.cs" />
+    <Compile Include="WebApiModel\PayConfigModel.cs" />
+    <Compile Include="WebApiModel\PersonnelCenterCommonModel.cs" />
+    <Compile Include="WebApiModel\QiNiuVideoInfoModel.cs" />
+    <Compile Include="WebApiModel\QuestionDankModel.cs" />
+    <Compile Include="WebApiModel\RongCloudModel.cs" />
+    <Compile Include="WebApiModel\SexProportionModel.cs" />
+    <Compile Include="WebApiModel\TestPaperModel.cs" />
+    <Compile Include="WebApiModel\TestQuestionModel.cs" />
+    <Compile Include="WebApiModel\TokenResult.cs" />
+    <Compile Include="WebApiModel\UserLoginModel.cs" />
+    <Compile Include="WebApiModel\VideoDetialModel.cs" />
+    <Compile Include="WebApiModel\WebMeetingDetailModel.cs" />
+    <Compile Include="WebApiModel\WorkLogModel.cs" />
+    <Compile Include="WebApiModel\WorkLogPlusModel.cs" />
+    <Compile Include="WebApiModel\WorkUpdateModel.cs" />
+    <Compile Include="WebApiModel\ZTreeModel.cs" />
+    <Compile Include="ztree.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DTcms.Common\DTcms.Common.csproj">
+      <Project>{6468CBF1-9D41-4231-8814-14491922FECC}</Project>
+      <Name>DTcms.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

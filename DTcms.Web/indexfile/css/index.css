@@ -1,0 +1,1089 @@
+.container {
+    width: 1400px;
+    height: 800px;
+    /*background: #0b0b23;*/
+    box-sizing: content-box;
+    overflow: hidden;
+}
+
+.container:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+/*center*/
+
+.center {
+    width: 697px;
+    height: 100%;
+}
+
+.center .title {
+    width: 420px;
+    height: 50px;
+    background: url(../imgs/index_imgs/Group%2013.png) no-repeat center;
+    background-size: contain;
+}
+
+
+/*
+.center .title p {
+    font-family: '锐字逼格青春体简2.0';
+    font-size: 32px;
+    text-align: center;
+}
+*/
+
+.center .center1 {
+    width: 697px;
+    height: 531px;
+    background: url(../imgs/index_imgs/frame.png) no-repeat center;
+    margin-top: -11px;
+    overflow: hidden;
+    background-size: contain;
+}
+
+.center .center1 .party_num_info {
+    width: 695px;
+    height: 49px;
+    /*justify-content: space-between;*/
+    justify-content: space-around;
+    display: flex;
+    margin-top: 42px;
+}
+
+.center .center1 .party_num_info>div {
+    justify-content: center;
+    text-align: center;
+}
+
+.center .center1 .party_num_info>div p {
+    height: 20px;
+    line-height: 8px;
+    font-family: '锐字逼格青春体简2.0';
+    color: #eaeaea;
+}
+
+.center .center1 .party_num_info p {
+    font-size: 16px;
+}
+
+.center .center1 .party_num_info .num {
+    width: 142px;
+    height: 23px;
+    background: url("../imgs/index_imgs/Group%2019.png") no-repeat center;
+    background-size: contain;
+}
+
+.center .center1 .party_num_info .num p {
+    text-align: center;
+    height: 26px;
+    line-height: 24px;
+    font-size: 20px;
+    color: #F39800;
+    font-family: '锐字逼格青春体简2.0';
+}
+
+.center .center2,
+.center .center3 {
+    margin-top: 38px;
+}
+
+.center .map_info {
+    position: absolute;
+    width: 486px;
+    height: 371px;
+    background: url('../imgs/index_imgs/Page%201.png') no-repeat center;
+    margin-top: 38px;
+    margin-left: 79px;
+    background-size: contain;
+}
+
+.center .map_info .common_flag {
+    width: 26px;
+    height: 28px;
+    background: url("../imgs/index_imgs/flag.png") no-repeat center;
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+}
+
+
+/*====================================红旗坐标start=====================================*/
+.center .map_info .little_flag1 {
+    margin-left: 181px;
+    margin-top: 107px;
+}
+
+.center .map_info .little_flag2 {
+    left: 238px;
+    top: 153px;
+}
+
+.center .map_info .little_flag3 {
+    left: 336px;
+    top: 91px;
+}
+
+.center .map_info .little_flag4 {
+    left: 353px;
+    top: 43px;
+}
+
+.center .map_info .little_flag5 {
+    left: 92px;
+    top: 321px;
+}
+
+.center .map_info .little_flag6 {
+    left: 132px;
+    top: 95px;
+}
+
+.center .map_info .little_flag7 {
+    left: 202px;
+    top: 183px;
+}
+
+.center .map_info .little_flag8 {
+    left: 136px;
+    top: 239px;
+}
+
+.center .map_info .little_flag9 {
+    left: 262px;
+    top: 56px;
+}
+.center .map_info .little_flag10 {
+    margin-left: 181px;
+    margin-top: 157px;
+}
+.center .map_info .little_flag11 {
+    left: 278px;
+    top: 153px;
+}
+
+.center .map_info .little_flag12 {
+    left: 376px;
+    top: 101px;
+}
+
+.center .map_info .little_flag13 {
+    left: 403px;
+    top: 43px;
+}
+
+.center .map_info .little_flag14 {
+    left: 62px;
+    top: 301px;
+}
+
+.center .map_info .little_flag15 {
+    left: 132px;
+    top: 135px;
+}
+
+.center .map_info .little_flag16 {
+    left: 232px;
+    top: 193px;
+}
+
+.center .map_info .little_flag17 {
+    left: 176px;
+    top: 239px;
+}
+
+.center .map_info .little_flag18 {
+    left: 292px;
+    top: 86px;
+}
+.center .map_info .little_flag19 {
+    margin-left: 231px;
+    margin-top: 107px;
+}
+    .center .map_info .little_flag20 {
+        margin-left: 201px;
+        margin-top: 77px;
+    }
+/*=============================红旗坐标end================================*/
+
+
+
+
+.center .map_info .flag_info .party_amount_box {
+    height: 18px;
+    line-height: 18px;
+}
+
+.center .map_info .flag_info {
+    width: 242px;
+    height: 170px;
+    background: url("../imgs/index_imgs/group_29.png") no-repeat center;
+    background-size: contain;
+    font-size: 14px;
+}
+
+
+/*     没用上？？？？？
+*/
+
+
+/*.center .map_info .flag_info p {
+    height: 18px;
+    line-height: 18px;
+}
+
+.center .map_info .flag_info p:eq(1) {
+    width: 179px;
+    overflow: hidden;
+}
+*/
+
+.center .map_info .flag_info .active_examples {
+    cursor: pointer
+}
+
+.center .flagInfo_partyName {
+    margin-left: 216px;
+    margin-top: 48px;
+    display: none;
+    width: 330px;
+    height: auto;
+    color: #eaeaea;
+    position: absolute;
+}
+
+.center .flagInfo_partyName span {
+    width: 86px;
+    height: 163px;
+    color: #1F1F2F;
+    font-size: 14px;
+    display: inline-block;
+    right: -91px;
+    top: -11px;
+    margin: 0.5rem;
+    position: absolute
+}
+
+.center .flagInfo_partyName span p:nth-child(1) {
+    margin-top: 8px;
+}
+
+
+/*===============  后添加   有改动 */
+
+.center .flagInfo_partyName span p {
+    color: #eaeaea;
+    height: 20px;
+    line-height: 20px;
+    /*text-indent: 0.3em;*/
+    margin-left: 16px;
+    margin-right: 20px;
+    border-bottom: 2px solid rgba(234, 234, 234, 0.7);
+    cursor: pointer;
+}
+
+.center .map_info .building1 {
+    width: 29px;
+    height: 23px;
+    background: url("../imgs/index_imgs/building.png") no-repeat center;
+    background-size: contain;
+    position: absolute;
+    display: none;
+}
+
+.center .map_info .building2 {
+    width: 29px;
+    height: 23px;
+    background: url("../imgs/index_imgs/building.png") no-repeat center;
+    background-size: contain;
+    position: absolute;
+    display: none;
+}
+
+.center .flagInfo_partyName .party_info i.one {
+    /*    display: inline-block;
+*/
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    right: 40px;
+    top: 6px;
+    cursor: pointer;
+    background: url(../imgs/index_imgs/more.png) no-repeat center;
+    background-size: contain;
+}
+
+.flagInfo_partyName .party_info i.one1 {
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    display: block;
+}
+
+.flagInfo_partyName .party_info i.one2 {
+    display: none;
+}
+
+.flagInfo_partyName .party_info i.two {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    right: 40px;
+    top: 6px;
+    background: url(../imgs/index_imgs/more.png) no-repeat center;
+    background-size: contain;
+}
+
+
+/*left*/
+
+.left {
+    width: 320px;
+    height: 100%;
+    margin-right: 31px;
+}
+
+.left .left1 {
+    margin-top: 42px;
+}
+
+.left .left2,
+.left .left3,
+.right .right2,
+.right .right3 {
+    margin-top: 42px;
+}
+
+.right {
+    width: 320px;
+    height: 100%;
+    margin-left: 31px;
+}
+
+.right .login {
+    width: 112px;
+    height: 42px;
+    line-height: 42px;
+    cursor: pointer;
+    margin-left: 200px
+}
+
+.right .login p {
+    font-size: 22px;
+    text-align: center;
+}
+
+.right .right1 {
+    margin-top: 0px;
+}
+
+.little_bg {
+    width: 320px;
+    height: 224px;
+    position: relative;
+    background: url("../imgs/index_imgs/Group%209.png") no-repeat center;
+    background-size: contain;
+}
+
+.little_bg2 {
+    width: 346px;
+    height: 192px;
+    position: relative;
+    background: url("../imgs/index_imgs/Group%2020.png") no-repeat center;
+    background-size: contain;
+}
+
+.canvas {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 314px;
+    height: 219px;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    padding: 0px;
+    /*    margin: 0px;
+*/
+    border-width: 0px;
+    z-index: 100;
+}
+
+
+/*===========    container2*/
+
+.container2 {
+    width: 550px;
+    /*    width: 60%;
+*/
+    height: 441px;
+    background: url("../imgs/login_img/Combined%20Shape.png") no-repeat center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -220px;
+    margin-left: -275px;
+    display: none;
+    background-size: contain;
+    /*left: 425px;*/
+}
+
+.container2 .logo {
+    width: 100px;
+    height: 100px;
+    background: url(../imgs/login_img/Group%2013%20Copy.png) no-repeat center;
+    background-size: contain;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    top: 0;
+}
+
+.container2 .word {
+    width: 120px;
+    height: 36px;
+    position: absolute;
+    left: 50%;
+    margin-left: -60px;
+    margin-top: 100px;
+}
+
+.container2 .word p {
+    font-size: 30px;
+    color: #eaeaea;
+    line-height: 36px;
+}
+
+.container2 form {
+    width: 312px;
+    height: 202px;
+    position: absolute;
+    top: 156px;
+    margin-left: -156px;
+    left: 50%;
+}
+
+.container2 .input_box {
+    width: 312px;
+    height: 46px;
+    border: 1px solid #eaeaea;
+    border-radius: 4px;
+}
+
+.container2 .input_box input {
+    width: 266px;
+    height: 46px;
+    line-height: 46px;
+    border: none;
+    background: none;
+    color: #eaeaea;
+    font-family: 'PingFang Regular';
+}
+
+.container2 .input_box .span1 {
+    display: inline-block;
+    width: 44px;
+    height: 46px;
+    background: url(../imgs/login_img/user.png) no-repeat center;
+}
+
+.container2 .input_box .span2 {
+    display: inline-block;
+    width: 44px;
+    height: 46px;
+    background: url(../imgs/login_img/password.png) no-repeat center;
+}
+
+/*.container2 .input_box:nth-child(2) {
+    position: absolute;
+    margin-top: 50px;
+}*/
+
+.container2 button {
+    width: 190px;
+    height: 46px;
+    position: absolute;
+    color: #eaeaea;
+    font-size: 18px;
+    font-family: 'PingFangSC-Regular';
+    left: 50%;
+    margin-left: -95px;
+    bottom: 0;
+    margin-bottom: 80px;
+    border: none;
+    background: #D32F3D;
+    box-shadow: 0 2px 4px 1px rgba(245, 81, 95, 0.58);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container2 .close {
+    width: 48px;
+    height: 48px;
+    background: url(../imgs/login_img/close.png) no-repeat center;
+    background-size: contain;
+    margin-top: 92%;
+    margin-left: 47%;
+    cursor: pointer;
+}
+
+
+/*================       container3       ================*/
+
+.container3 {
+    /*background: #0b0b23;*/
+    width: 880px;
+    height: auto;
+    position: absolute;
+    display: none;
+    /*left: -275px;*/
+    left: 50%;
+    margin-left: -440px;
+    top: 0px;
+}
+
+.container3 .top_nav {
+    width: 420px;
+    height: 50px;
+    background: url("../imgs/active/Group%2013.png") no-repeat center;
+    background-size: contain;
+    margin: 0 auto;
+    top: 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+.container3 .active_content {
+    width: 851px;
+    height: 610px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.container3 .active_content .active_title {
+    width: 851px;
+    height: 40px;
+    line-height: 40px;
+    /*    border-bottom: 2px solid rgba(234, 234, 234, 0.4);
+*/
+    border-bottom: 1px solid rgba(234, 234, 234, 0.9);
+    text-align: center;
+    font-size: 28px;
+}
+
+.container3 .active_list {
+    width: 851px;
+    overflow: hidden;
+}
+
+.container3 .active_list .list {
+    width: 190px;
+    height: 190px;
+    background: url("../imgs/active/xk.png") no-repeat center;
+    background-size: contain;
+    text-align: center;
+    margin-top: 12px;
+    margin-right: 30px;
+    white-space: initial;
+}
+
+.container3 .active_list #list3,
+.container3 .active_list #list7 {
+    margin-right: 0px;
+}
+
+.container3 .active_list #list4,
+.container3 .active_list #list5,
+.container3 .active_list #list6,
+.container3 .active_list #list7 {
+    /*margin-top: 68px;*/
+}
+
+.container3 .active_list .list p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.container3 .active_list .list img {
+    width: 180px;
+    height: 180px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.container3 .active_content .active_close {
+    width: 100%;
+    height: 48px;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 50px;
+}
+
+.container3 .active_content .active_close>div {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto;
+    margin-top: 15px;
+    background: url("../imgs/active/close.png") no-repeat center;
+    background-size: contain;
+    cursor: pointer;
+}
+
+
+/*===============================  container4  个人详情    ==============================*/
+
+a {
+    color: #eaeaea;
+    text-decoration: none;
+}
+
+.container4 {
+    /*background: #0b0b23;*/
+    width: 880px;
+    height: auto;
+    position: absolute;
+    display: none;
+    /*left: -275px;*/
+    left: 50%;
+    margin-left: -440px;
+    top: 0px;
+}
+
+.container4 .top_nav {
+    width: 420px;
+    height: 50px;
+    background: url("../imgs/active/Group%2013.png") no-repeat center;
+    background-size: contain;
+    margin: 0 auto;
+    top: 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+/*============= 滚动条  ===========*/
+
+#scrollbar3 {
+    width: 874px;
+    height: 488px;
+    overflow: visible;
+}
+
+#scrollbar33 {
+    width: 874px;
+    height: 488px;
+    overflow: visible;
+}
+
+
+/*.viewport {
+    width: 855px;
+    height: 488px;
+    overflow: auto;
+    margin-top: 6px;
+    font-family: 'PingFang Regular';
+    font-size: 18px;
+}
+
+.viewport::-webkit-scrollbar {
+    width: 5px;
+    height: 0px;
+}*/
+
+.viewport::-webkit-scrollbar-button {
+    /*    background-color: #1f1f2f;
+*/
+}
+
+
+/*
+.viewport::-webkit-scrollbar-track {
+    background: #1f1f2f;
+}
+
+.viewport::-webkit-scrollbar-thumb {
+    background: #d8d8d8;
+    border-radius: 4px;
+}
+
+.viewport::-webkit-scrollbar-corner {
+    background: #1f1f2f;
+}
+
+.viewport::-webkit-scrollbar-resizer {
+    background: #1f1f2f;
+    border-radius: 4px;
+    height: 100px;
+}
+*/
+
+
+/*============================*/
+
+.container4 .active_content {
+    width: 880px;
+    height: 599px;
+    overflow: visible;
+    margin: 0 auto;
+    margin-top: 60px;
+    background: url("../imgs/active/frame2.png") no-repeat center;
+    background-size: contain;
+}
+
+.container4 .active_content .go_back {
+    height: 48px;
+    margin-right: 25px;
+}
+
+.container4 .active_content .go_back p {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.container4 .active_content .personal_details li {
+    height: 45px;
+    line-height: 45px;
+    border-bottom: 2px solid rgba(234, 234, 234, 0.4);
+    margin-right: 18px;
+    margin-left: 80px;
+}
+
+.container4 .active_content .personal_details li:nth-child(1) {
+    margin-top: 0px;
+}
+
+.container4 .active_content .personal_details li:nth-child(5) {
+    border-bottom: none;
+}
+
+.container4 .active_content .personal_details li:nth-child(1) i {
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    background: url("../imgs/active/name.png") no-repeat center;
+}
+
+.container4 .active_content .personal_details li:nth-child(2) i {
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    background: url("../imgs/active/flag.png") no-repeat center;
+}
+
+.container4 .active_content .personal_details li:nth-child(3) i {
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    background: url("../imgs/active/clerk.png") no-repeat center;
+}
+
+.container4 .active_content .personal_details li:nth-child(4) i {
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    background: url("../imgs/active/organization.png") no-repeat center;
+}
+
+.container4 .active_content .personal_details li:nth-child(5) i {
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    background: url("../imgs/active/active.png") no-repeat center;
+}
+
+.container4 .active_content .personal_details li>span {
+    height: 45px;
+    display: inherit;
+    margin-top: -61px;
+    margin-left: 44px;
+}
+
+.container4 .active_list {
+    width: 690px;
+    margin-left: 131px;
+    overflow: hidden;
+}
+
+.container4 .active_list .list {
+    width: 190px;
+    height: 190px;
+    background: url("../imgs/active/xk.png") no-repeat center;
+    background-size: contain;
+    text-align: center;
+    /*margin-top: 55px;*/
+    margin-right: 40px;
+    white-space: initial;
+}
+
+.container4 .active_list #exlist0,
+.container4 .active_list #exlist1,
+.container4 .active_list #exlist2 {
+    margin-top: 0;
+}
+
+.container4 .active_list #exlist3,
+.container4 .active_list #exlist4,
+.container4 .active_list #exlist5 {
+    /*margin-top: 68px;*/
+}
+
+.container4 .active_list #exlist2,
+.container4 .active_list #exlist5 {
+    margin-right: 0px;
+}
+
+.container4 .active_list .list p {
+    margin-top: 18px;
+    margin-bottom: 10px;
+    font-family: '锐字逼格青春体简2.0';
+    width: 160px;
+    margin-left: 15px;
+    line-height: 20px;
+}
+
+.container4 .active_list .list img {
+    width: 180px;
+    height: 180px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.container4 .active_content .active_close {
+    width: 100%;
+    height: 48px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.container4 .active_content .active_close>div {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto;
+    margin-top: 15px;
+    background: url("../imgs/active/close.png") no-repeat center;
+    background-size: contain;
+}
+
+
+/*=================    active_details        ==============*/
+
+.active_details {
+    width: 880px;
+    height: auto;
+    position: absolute;
+    display: none;
+    left: 50%;
+    margin-left: -440px;
+    /*top: 0px;*/
+    bottom: 0px;
+}
+
+.active_details .top_nav {
+    width: 420px;
+    height: 50px;
+    background: url("../imgs/active/Group%2013.png") no-repeat center;
+    background-size: contain;
+    margin: 0 auto;
+    top: 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+.active_details .active_content {
+    width: 880px;
+    height: 599px;
+    overflow: auto;
+    margin: 0 auto;
+    margin-top: 60px;
+    background: url("../imgs/active/frame2.png") no-repeat center;
+    background-size: contain;
+}
+
+
+/*========  滚动条  ==========*/
+
+
+/*.active_details .active_content::-webkit-scrollbar {
+    width: 5px;
+    height: 0px;
+}
+
+.active_details .active_content::-webkit-scrollbar-button {
+    background-color: #1f1f2f;
+}
+
+.active_details .active_content::-webkit-scrollbar-track {
+    background: #1f1f2f;
+}
+*/
+
+
+/*.active_details .active_content::-webkit-scrollbar-track-piece {
+    background:url(http://www.lyblog.net/wp/wp-content/themes/mine/img/stripes_tiny_08.png);
+}
+*/
+
+
+/*.active_details .active_content::-webkit-scrollbar-thumb {
+    background: #d8d8d8;
+    border-radius: 4px;
+}
+
+.active_details .active_content::-webkit-scrollbar-corner {
+    background: #1f1f2f;
+}
+
+.active_details .active_content::-webkit-scrollbar-resizer {
+    background: #1f1f2f;
+}
+
+*/
+
+
+/*==============*/
+
+.active_details .active_content .go_back {
+    height: 48px;
+    margin-right: 25px;
+}
+
+.active_details .active_content .go_back p {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.active_details .active_content .active_description {
+    width: 705px;
+    margin-left: 82px;
+    margin-top: 15px;
+    white-space: initial;
+}
+
+.active_details .active_content .active_description p {
+    /*    width: 740px;
+*/
+    text-align: justify;
+}
+
+.active_details .active_content .img {
+    width: 705px;
+    margin-left: 78px;
+    margin-top: 15px;
+}
+
+.active_details .active_content .img img {
+    width: 100%;
+}
+
+.active_details .active_content .personal_details li {
+    height: 45px;
+    line-height: 45px;
+    border-bottom: 2px solid rgba(234, 234, 234, 0.4);
+    margin-left: 80px;
+    margin-right: -15px;
+}
+
+.active_details .active_content .personal_details li>span {
+    height: 45px;
+    display: inherit;
+    margin-top: -61px;
+    margin-left: 44px;
+    font-family: "PingFang Regular";
+}
+
+.active_details .active_content .personal_details li:nth-child(1) {
+    margin-top: -3px;
+}
+
+.active_details .active_content .personal_details li:nth-child(5) .span {
+    display: inline-block;
+    margin-left: 70px;
+    width: 15px;
+    height: 11px;
+    background: url("../imgs/active_details/pull.png") no-repeat center;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.active_details .active_content .personal_details li:nth-child(1) i {
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    background: url("../imgs/active_details/active_name.png") no-repeat center;
+}
+
+.active_details .active_content .personal_details li:nth-child(2) i {
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    background: url("../imgs/active_details/active_place.png") no-repeat center;
+}
+
+.active_details .active_content .personal_details li:nth-child(3) i {
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    background: url("../imgs/active_details/active_time.png") no-repeat center;
+}
+
+.active_details .active_content .personal_details li:nth-child(4) i {
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    background: url("../imgs/active_details/active_organization.png") no-repeat center;
+}
+
+.active_details .active_content .personal_details li:nth-child(5) i {
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    background: url("../imgs/active_details/part_in_people.png") no-repeat center;
+}
+
+.active_details .active_content .active_close {
+    width: 100%;
+    height: 48px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.active_details .active_content .active_close>div {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto;
+    margin-top: 15px;
+    background: url("../imgs/active/close.png") no-repeat center;
+    background-size: contain;
+}
+
+.ctBox {
+    height: 26px;
+    line-height: 26px;
+    position: absolute;
+    left: 14px;
+    top: 8px;
+    z-index: 100;
+}
+
+.canvas_title {
+    display: inline-block;
+    width: 18px;
+    height: 21px;
+    background: url(../imgs/index_imgs/canvasTitle.png) no-repeat center;
+    background-size: contain;
+}
+
+.ctBox p {
+    display: inline-block;
+    position: absolute;
+    left: 25px;
+}

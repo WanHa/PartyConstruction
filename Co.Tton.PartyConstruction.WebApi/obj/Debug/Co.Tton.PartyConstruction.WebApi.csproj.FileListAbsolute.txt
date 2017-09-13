@@ -1,0 +1,1 @@
+D:\SourceTree\PartyConstruction\Co.Tton.PartyConstruction.WebApi\obj\Debug\Co.Tton.PartyConstruction.WebApi.csprojResolveAssemblyReference.cache

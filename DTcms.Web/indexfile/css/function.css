@@ -1,0 +1,114 @@
+body{
+	height: 800px;
+}
+#bigBg{
+	width: 100%;
+	height: 100%;
+	background: url(../imgs/function/copy.png);
+}
+
+.top{
+	width: 420px;
+	height: 50px;
+	margin-left: 490px;
+	background: url(../imgs/function/Group13.png);
+}
+
+.group1{
+	width: 500px;
+	height: 247px;
+	position: absolute;
+	left: 275px;
+	top: 159px;
+	background:url(../imgs/function/Group2.png);
+}
+    .group1:hover {
+        width: 510px;
+        height: 257px;
+        position: absolute;
+        left: 270px;
+        top: 154px;
+        background: url(../imgs/function/Group2.png) no-repeat;
+    }
+
+.group1Bg img:first-child{
+	margin-left: 140px;
+	margin-top: 55px;
+}
+
+.group1Bg img:last-child{
+	margin-left: 240px;
+	margin-top: -60px;
+}
+.group2{
+	width: 400px;
+	height: 214px;
+	position: absolute;
+	left: 748px;
+	top: 228px;
+	background: url(../imgs/function/Group3.png);
+}
+.group2:hover {
+    width: 410px;
+    height: 224px;
+    position: absolute;
+    left: 753px;
+    top: 225px;
+    background: url(../imgs/function/Group3.png) no-repeat;
+}
+.group2Bg img:first-child{
+	margin-left: 140px;
+	margin-top: 55px;
+}
+.group2Bg img:last-child{
+	margin-left: 230px;
+	margin-top: -45px;
+}
+.group3{
+	width: 444px;
+	height: 214px;
+	position: absolute;
+	left: 207px;
+	top: 411px;
+	background: url(../imgs/function/Group7.png);
+}
+.group3:hover {
+    width: 454px;
+    height: 224px;
+    position: absolute;
+    left: 202px;
+    top: 416px;
+    background: url(../imgs/function/Group7.png) no-repeat;
+}
+.group3Bg img:first-child{
+	margin-left: 160px;
+	margin-top: 65px;
+}
+.group3Bg img:last-child{
+	margin-left: 250px;
+	margin-top: -45px;
+}
+.group4{
+	width: 500px;
+	height: 188px;
+	position: absolute;
+	left: 646px;
+	top: 476px;
+	background: url(../imgs/function/Group4.png);
+}
+.group4:hover {
+    width: 510px;
+    height: 198px;
+    position: absolute;
+    left: 651px;
+    top: 481px;
+    background: url(../imgs/function/Group4.png) no-repeat;
+}
+.group4Bg img:first-child{
+	margin-left: 190px;
+	margin-top: 55px;
+}
+.group4Bg img:last-child{
+	margin-left: 280px;
+	margin-top: -50px;
+}

@@ -1,0 +1,85 @@
+/*=========公共样式==========*/
+
+@font-face {
+    font-family: "锐字逼格青春体简2.0";
+    src: url("../fonts/锐字逼格青春体简2.0.ttf");
+}
+
+@font-face {
+    font-family: 'PingFang Regular';
+    src: url('../fonts/PingFang Regular.ttf');
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+img,
+input,
+a,
+dl,
+li,
+ul,
+dt,
+dd,
+ol {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style: none
+}
+
+img {
+    display: block;
+    border: 0;
+}
+
+input {
+    outline: none;
+}
+
+body {
+    font: 16px/1.5 "锐字逼格青春体简2.0";
+    background: url(../imgs/index_imgs/bg1.png) repeat #0b0b23;
+    /*    display: inline-block;
+*/
+    *display: inline;
+    zoom: 1;
+    min-width: 1400px;
+    min-height: 800px;
+    /*    _width: 600px;
+*/
+    white-space: nowrap;
+    color: rgba(234, 234, 234, 0.9);
+    font-weight: bold;
+    font-weight: lighter;
+    margin: 0 auto;
+}
+
+
+/*a{ text-decoration:none; color:#eaeaea;}
+a:hover{ text-decoration:underline; color:#0FF;}*/
+
+.w {
+    margin: 0 auto;
+}
+
+.l {
+    float: left;
+}
+
+.r {
+    float: right
+}
+
+a {
+    color: rgba(234, 234, 234, 0.9);
+    text-decoration: none;
+}

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<appSettings>
+  <add key="webpages:Version" value="3.0.0.0" />
+  <add key="webpages:Enabled" value="false" />
+  <add key="ClientValidationEnabled" value="true" />
+  <add key="UnobtrusiveJavaScriptEnabled" value="true" />
+  
+  <!--支付宝配置信息-->
+  <add key="ALiPayPrivateKey" value="MIIEpAIBAAKCAQEAuCaVkvcgatWIs8sKjJzHk6xwfF2pk6Ilp4NGMD7UoEGfJrF/X+xZebRRMtIrSLjLSaSDzhZwx7LLpt+U/YtTweQZm5rvnN8T+TJvmjfk5VaJaGGcm6nNGyoKm4Pu/O0HMP8F9Wbcbz9JD23AYrkNHhjxIXiXfLPHrwHZ3fVwmCyyURge4cEAFndim376PhZ5m1hQKstn8zMLp/Ayw0GMu9WmRSI883J5xN60itdozCxlyTXFSf1WsUyl+daUorMaN6HfETdA2UvvLyCj2lUoLbVdYeQ5oaEkt7DhqX9G4uSg5aHbmwTzp1AFDK8Jvzs+/Azm9hyQZOd71sQhx3MoWwIDAQABAoIBABtnmpDReCCOAJcJG1vLpSPD4MWRRsAyvDnOnm5lm0zyFxYyCgujZ7ll7UOL5WcgIRing/nyevwtDoOZ+Fk3F9Ld+DWg/BGzXQyTxeoEcWrz0uUWybCct2pYelWkb7dyKsTO3vsjQKDJoTzLj3rhoSMegRwDD0A+nPPdaafPc98hXqN6U8Ot0XP8fLKuFfgBGEAxAcIxdfFIMyiuIOGYlBViDalFctOXLzweqDgZNBXMDrNIjVpbRZJCNhPSKmJMHw3/qDtc/oL7l0o+Ga7hDUXh8PdxoKW8ctNL+CQHxNVe5FS7q8aDCQvYual51+48qDkS7DR1ad9GNLcZW0gMGnkCgYEA9AD1xUTTth/rw4b8ZxlFT2IR9aVS6z0SOLMCnjWxhETrObv2HVVRYHA2ZH6BrhYwSV+etj01ZrW5SANTrROgxQqG4hLm0fUnnEsOVR+a3f6rfU7ybcblnfWIZTs+CtuLTMt+z4CSuopLzalG1mD/ikg05jFoI+dxSOY2l/2Q0+UCgYEAwTRP1QGZqIPDVCMBO3Id4dLEsCoYLa84nqWf0WdirzHnvteSwH4h3V8bbdH5RyOy+FabHE7Hd4PjkrijPLJB4q2FE/XNxbHtFxNIMoNTDRRP6OjaU/FG/sx6qHmzk2ffC50x3T7HYmD6ujRoxHd+tK7udtmA476U76GEa4o4xz8CgYEA3QZFmpT3BcGyiaIr3qQogXj/dbl0+/uNFukolPFkRME9JkYZ8YZIOYhL7QofI/ebc8t28/NL/Sbdl9rToDLobbRUbFLc3REp+UyPxhHj8fVvmAm8Vi5V7pjsHW7li2ZFr6Gh1ArOXsVJVxlgPm8M61DvAhl9ERDkMDnA+DrLRvUCgYEApsH2Hc3xyIdh8p78E0keDaoT5lGO6O+SGSyvUti/TqPueMQsgETeCeprDFDtrb9cXAi0fKxqcfe+VwdSrbLWN0a51E6Wuwolr4MPD7pV1rYvesJwn39jXc00GXJh0tsWozmcrm/fPESkZE+UFe9lx6ItZRu6qdf3SRXJ6+AzvZUCgYA5UadeettQUVRwqdFja3F/c1d1qFbdysk36346AXDEUbEaiocGkFq+3Nq/OhePN/Vq1QGnw+Nzl4sGYMId5+fHh0bIgoy2JJKFgLix4EuzLT3Ls93ImVnqYC9jlo99hfJZg91sRWk7aA8PlrTQOiyU5c1+5LYKs/C9Qbr9IzByRQ==" />
+  <add key="ALiPayPublicKey" value="MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuCaVkvcgatWIs8sKjJzHk6xwfF2pk6Ilp4NGMD7UoEGfJrF/X+xZebRRMtIrSLjLSaSDzhZwx7LLpt+U/YtTweQZm5rvnN8T+TJvmjfk5VaJaGGcm6nNGyoKm4Pu/O0HMP8F9Wbcbz9JD23AYrkNHhjxIXiXfLPHrwHZ3fVwmCyyURge4cEAFndim376PhZ5m1hQKstn8zMLp/Ayw0GMu9WmRSI883J5xN60itdozCxlyTXFSf1WsUyl+daUorMaN6HfETdA2UvvLyCj2lUoLbVdYeQ5oaEkt7DhqX9G4uSg5aHbmwTzp1AFDK8Jvzs+/Azm9hyQZOd71sQhx3MoWwIDAQAB" />
+  <add key="ALiAppId" value="2017041306693376" />
+  
+  <!--微信支付配置信息-->
+  <add key="WeiXinAppId" value="wx767b214c9463203b" />
+  <add key="WeiXinPublicKey" value="weixin" />
+  <add key="WeiXinPrivateKey" value="weixin" />
+  
+  <!--个推配置信息-->
+  <add key="GeTuiAppId" value="fmw9QW8rLT9ZiawvGxglz1" />
+  <add key="GeTuiHost" value="https://api.getui.com/apiex.htm" />
+  <add key="GeTuiAppKey" value="MPmnbOpKSRAM9zjIgCKks2" />
+  <add key="GeTuiMasterSecret" value="gYF0NR4gob77bOBnbPivuA" />
+  
+  <!--融云IM配置信息-->
+  <add key="RongAppKey" value="p5tvi9dspmtc4" />
+  <add key="RongAppSecret" value="UQWiaeBWxNV0t" />
+</appSettings>
+<!--<add key="ALiPayPrivateKey" value="MIIEpAIBAAKCAQEAuCaVkvcgatWIs8sKjJzHk6xwfF2pk6Ilp4NGMD7UoEGfJrF/X+xZebRRMtIrSLjLSaSDzhZwx7LLpt+U/YtTweQZm5rvnN8T+TJvmjfk5VaJaGGcm6nNGyoKm4Pu/O0HMP8F9Wbcbz9JD23AYrkNHhjxIXiXfLPHrwHZ3fVwmCyyURge4cEAFndim376PhZ5m1hQKstn8zMLp/Ayw0GMu9WmRSI883J5xN60itdozCxlyTXFSf1WsUyl+daUorMaN6HfETdA2UvvLyCj2lUoLbVdYeQ5oaEkt7DhqX9G4uSg5aHbmwTzp1AFDK8Jvzs+/Azm9hyQZOd71sQhx3MoWwIDAQABAoIBABtnmpDReCCOAJcJG1vLpSPD4MWRRsAyvDnOnm5lm0zyFxYyCgujZ7ll7UOL5WcgIRing/nyevwtDoOZ+Fk3F9Ld+DWg/BGzXQyTxeoEcWrz0uUWybCct2pYelWkb7dyKsTO3vsjQKDJoTzLj3rhoSMegRwDD0A+nPPdaafPc98hXqN6U8Ot0XP8fLKuFfgBGEAxAcIxdfFIMyiuIOGYlBViDalFctOXLzweqDgZNBXMDrNIjVpbRZJCNhPSKmJMHw3/qDtc/oL7l0o+Ga7hDUXh8PdxoKW8ctNL+CQHxNVe5FS7q8aDCQvYual51+48qDkS7DR1ad9GNLcZW0gMGnkCgYEA9AD1xUTTth/rw4b8ZxlFT2IR9aVS6z0SOLMCnjWxhETrObv2HVVRYHA2ZH6BrhYwSV+etj01ZrW5SANTrROgxQqG4hLm0fUnnEsOVR+a3f6rfU7ybcblnfWIZTs+CtuLTMt+z4CSuopLzalG1mD/ikg05jFoI+dxSOY2l/2Q0+UCgYEAwTRP1QGZqIPDVCMBO3Id4dLEsCoYLa84nqWf0WdirzHnvteSwH4h3V8bbdH5RyOy+FabHE7Hd4PjkrijPLJB4q2FE/XNxbHtFxNIMoNTDRRP6OjaU/FG/sx6qHmzk2ffC50x3T7HYmD6ujRoxHd+tK7udtmA476U76GEa4o4xz8CgYEA3QZFmpT3BcGyiaIr3qQogXj/dbl0+/uNFukolPFkRME9JkYZ8YZIOYhL7QofI/ebc8t28/NL/Sbdl9rToDLobbRUbFLc3REp+UyPxhHj8fVvmAm8Vi5V7pjsHW7li2ZFr6Gh1ArOXsVJVxlgPm8M61DvAhl9ERDkMDnA+DrLRvUCgYEApsH2Hc3xyIdh8p78E0keDaoT5lGO6O+SGSyvUti/TqPueMQsgETeCeprDFDtrb9cXAi0fKxqcfe+VwdSrbLWN0a51E6Wuwolr4MPD7pV1rYvesJwn39jXc00GXJh0tsWozmcrm/fPESkZE+UFe9lx6ItZRu6qdf3SRXJ6+AzvZUCgYA5UadeettQUVRwqdFja3F/c1d1qFbdysk36346AXDEUbEaiocGkFq+3Nq/OhePN/Vq1QGnw+Nzl4sGYMId5+fHh0bIgoy2JJKFgLix4EuzLT3Ls93ImVnqYC9jlo99hfJZg91sRWk7aA8PlrTQOiyU5c1+5LYKs/C9Qbr9IzByRQ==" />
+<add key="ALiPayPublicKey" value="MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuCaVkvcgatWIs8sKjJzHk6xwfF2pk6Ilp4NGMD7UoEGfJrF/X+xZebRRMtIrSLjLSaSDzhZwx7LLpt+U/YtTweQZm5rvnN8T+TJvmjfk5VaJaGGcm6nNGyoKm4Pu/O0HMP8F9Wbcbz9JD23AYrkNHhjxIXiXfLPHrwHZ3fVwmCyyURge4cEAFndim376PhZ5m1hQKstn8zMLp/Ayw0GMu9WmRSI883J5xN60itdozCxlyTXFSf1WsUyl+daUorMaN6HfETdA2UvvLyCj2lUoLbVdYeQ5oaEkt7DhqX9G4uSg5aHbmwTzp1AFDK8Jvzs+/Azm9hyQZOd71sQhx3MoWwIDAQAB" />
+<add key="ALiAppId" value="2017041306693376" />-->

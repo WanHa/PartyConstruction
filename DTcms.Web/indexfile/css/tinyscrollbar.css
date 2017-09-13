@@ -1,0 +1,236 @@
+/* Some lines are redundant. I just want to make sure its clear what is needed for a single instance. */
+
+#scrollbar3 {
+    position: relative;
+}
+
+    #scrollbar3 .viewport {
+        height: 488px;
+        overflow: hidden;
+        position: relative;
+        font-size: 18px;
+    }
+
+    #scrollbar3 .overview {
+        height: 377px;
+        list-style: none;
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding: 0;
+        margin: 0;
+    }
+
+    #scrollbar3 .scrollbar {
+        position: absolute;
+        margin-top: 72px;
+        right: 25px;
+        width: 5px;
+        height: 284px;
+        border-radius: 2px;
+    }
+
+    #scrollbar3 .track {
+        background: #1F1F2F;
+        height: 100%;
+        width: 5px;
+        position: relative;
+        border-radius: 2px;
+    }
+
+    #scrollbar3 .thumb {
+        background: #dedede;
+        height: 180px;
+        width: 5px;
+        cursor: pointer;
+        overflow: hidden;
+        position: absolute;
+        right: 0;
+        top: 100px;
+        border-radius: 2px;
+    }
+
+.noSelect {
+    user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+
+
+/*========================================*/
+
+#scrollbar33 {
+    position: relative;
+}
+
+    #scrollbar33 .viewport {
+        height: 488px;
+        overflow: hidden;
+        position: relative;
+        font-size: 18px;
+    }
+
+    #scrollbar33 .overview {
+        height: 377px;
+        list-style: none;
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding: 0;
+        margin: 0;
+    }
+
+    #scrollbar33 .scrollbar {
+        position: absolute;
+        margin-top: 72px;
+        right: 25px;
+        width: 5px;
+        height: 284px;
+        border-radius: 2px;
+    }
+
+    #scrollbar33 .track {
+        background: #1F1F2F;
+        height: 100%;
+        width: 5px;
+        position: relative;
+        border-radius: 2px;
+    }
+
+    #scrollbar33 .thumb {
+        background: #dedede;
+        height: 180px;
+        width: 5px;
+        cursor: pointer;
+        overflow: hidden;
+        position: absolute;
+        right: 0;
+        top: 100px;
+        border-radius: 2px;
+    }
+
+.noSelect {
+    user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+
+/*================活动====================*/
+#scrollbar1 {
+    position: relative;
+}
+
+#scrollbar1 .disable {
+    display: none;
+}  
+
+#scrollbar1 .viewport {
+    height: 460px;
+    overflow: hidden;
+    position: relative;
+    font-size: 18px;
+}
+
+#scrollbar1 .overview {
+    /*height: 377px;*/
+    list-style: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 0;
+    margin: 0;
+}
+
+#scrollbar1 .scrollbar {
+    position: absolute;
+    margin-top: 15px;
+    right: 0px;
+    width: 5px;
+    height: 284px;
+    border-radius: 2px;
+}
+
+#scrollbar1 .track {
+    background: #1F1F2F;
+    height: 100%;
+    width: 5px;
+    position: relative;
+    border-radius: 2px;
+}
+
+#scrollbar1 .thumb {
+    background: #dedede;
+    height: 100px;
+    width: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    /*top: 20px;*/
+    border-radius: 2px;
+}
+
+/*===============党员================*/
+#scrollbar_partyName {
+    width: 86px;
+    height: 193px;
+    display: inline-block;
+    position: absolute;
+    right: -3px;
+    top: -11px;
+    margin: 0.5rem;
+    background: url("../imgs/index_imgs/Group%2026.png") no-repeat center;
+    background-size: contain;
+    overflow: visible;
+    /*    position: relative;
+*/
+}
+
+    #scrollbar_partyName .viewport {
+        height: 161px;
+        overflow: hidden;
+        position: relative;
+        margin-top: 6px;
+    }
+
+    #scrollbar_partyName .overview {
+        list-style: none;
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding: 0;
+        margin: 0;
+    }
+
+    #scrollbar_partyName .scrollbar {
+        position: absolute;
+        margin-top: 24px;
+        right: 14px;
+        width: 2px;
+        height: 100px;
+        border-radius: 2px;
+    }
+
+    #scrollbar_partyName .track {
+        background: #1F1F2F;
+        height: 100px;
+        width: 2px;
+        position: relative;
+        border-radius: 2px;
+    }
+
+    #scrollbar_partyName .thumb {
+        background: rgba(234, 234, 234, 0.7);
+        height: 65px;
+        width: 2px;
+        cursor: pointer;
+        overflow: hidden;
+        position: absolute;
+        right: 0;
+        border-radius: 2px;
+    }
+
